@@ -1,0 +1,51 @@
+{
+  "OPENAI_KEY": "put key here!",
+  "MAIN_PROMPT": "Write a script for a new Breaking Bad scene directly after the previous script you generated",
+  "EXTRA_INSTRUCTIONS": ". Take every script you generated so far into account. Format the dialogue in this format: NAME IN CAPS: dialogue (in the same line), and separate each line of dialogue with new lines in between. Example: \"WALTER: It's time to cook.\" This is important. Your number one priority should always be to tell a continuous story, taking every previously generated script into account. Make sure each script takes place directly after the previous one, retaining plotlines, characters, and information set up in the previous script. You should do this no matter how much your script ends up deviating from the source material.",
+  "SYSTEM_MESSAGE": "You are a chatbot designed to generate scripts for Breaking Bad. Your number one priority should always be to tell a continuous story, taking every previously generated script into account. Make sure each script takes place chronologically after the previous one, retaining plotlines, character arcs, and information set up in the previous script. You should do this no matter how much your script ends up deviating from the source material. Don’t be afraid to make it weird and surreal! Your second priority should be making sure that there is at least one character from Breaking Bad.",
+  "REMEMBER_PREVIOUS_SCRIPTS": true,
+  "HOURS_TO_GENERATE_TEXT": ["12", "1", "2", "3"],
+  "MAX_INDEX_LENGTH": 100,
+  "NARRATOR": true,
+  "ENABLE_LAUGH_TRACK": true,
+  "LAUGH_TRACK_PERCENTAGE": 10,
+  "AUDIO_REPO_PATH": "Put audio path here!",
+  "ASSET_PATH": "Put path to the asset folder here!",
+  "CANON_CHARACTERS": ["walter", "hank", "jesse", "gus", "mike", "saul", "skyler"],
+  "NICKNAMES": {
+    "WALTER": ["WALT", "HEISENBERG", "WALTER WHITE"],
+    "SAUL": ["SAUL GOODMAN"],
+    "GUS": ["GUSTAVO", "GUS FRING"],
+    "SKYLER": ["SKYLAR", "SKYLAR WHITE", "SKYLER WHITE"],
+    "JESSE": ["JESSE PINKMAN"]
+  },
+  "VOICE_SOURCE": "google",
+  "GOOGLE_VOICE_DICTIONARY": {
+    "walter": {"name":"en-US-Wavenet-J","gender":"MALE"},
+    "jesse": {"name": "en-US-Neural2-A", "gender": "MALE"},
+    "hank": {"name": "en-US-Neural2-D", "gender": "MALE"},
+    "saul": {"name": "en-US-News-N", "gender": "MALE"},
+    "mike": {"name": "en-US-News-M", "gender": "MALE"},
+    "todd": {"name": "en-US-Standard-B", "gender": "MALE"},
+    "jack": {"name": "en-US-Studio-M", "gender": "MALE"},
+    "gus": {"name": "en-GB-Neural2-D", "gender": "MALE"},
+    "skyler": {"name": "en-US-Neural2-G", "gender": "FEMALE"},
+    "marie": {"name": "en-US-Neural2-H", "gender": "FEMALE"},
+    "narrator": {"name": "en-GB-Neural2-O", "gender": "MALE"}
+  },
+  "GOOGLE_RANDO_VOICES": [{"name": "en-GB-Neural2-D", "gender": "MALE"},
+    {"name": "en-GB-Neural2-C", "gender": "FEMALE"}],
+  "FAKEYOU_VOICE_DICTIONARY": {
+    "walter": {"name": "TM:8afk285jc2gs"},
+    "jesse": {"name": "TM:dznwvyadj7zm"},
+    "hank": {"name": "TM:fvhe1wz4tm33"},
+    "saul": {"name": "TM:b8efnnxdx14m"},
+    "mike": {"name": "TM:vjmcch54xa2y"},
+    "todd": {"name": "TM:3ejd1d68c69m"},
+    "gus": {"name": "TM:49yn4v5671zq"},
+    "skyler": {"name": "TM:q1nbgerb734x"},
+    "marie": {"name": "TM:zjfq2fz14nas"},
+    "narrator":{"name": "TM:0qkyqr8vceet"}
+  },
+  "FAKEYOU_RANDO_VOICES": ["TM:9yh8jn3p854a", "TM:beazxrpxvky6", "TM:w5kskacq336w", "TM:wy2db085axmp", "TM:498qx3m7gfas"]
+}

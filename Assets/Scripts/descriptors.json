@@ -1,0 +1,58 @@
+{
+    "0": {
+        "name": "",
+        "weight": "20"
+    },
+    "1": {
+        "name": ", and make it unintentionally funny",
+        "weight": "20"
+    },
+    "2": {
+        "name": ", and make everyone speak like pirates",
+        "weight": "1"
+    },
+    "3": {
+        "name": ", and make it overly dramatic",
+        "weight": "10"
+    },
+    "4": {
+        "name": ", and make the characters talk about how they're trapped in a poorly made computer simulation for people to watch over the Internet",
+        "weight": "1"
+    },
+    "5": {
+        "name": ", and make one of the characters speak Korean for no reason",
+        "weight": "1"
+    },
+    "6": {
+        "name": ", and make everyone rhyme their dialogue with each other",
+        "weight": "1"
+    },
+    "7": {
+        "name": ", and make something really weird and wacky happen",
+        "weight": "10"
+    },
+    "8": {
+        "name": ", and make the scene revolve around different characters from the show (while still keeping the overarching story intact)",
+        "weight": "5"
+    },
+    "9": {
+        "name": ", and start the scene with one of the characters complaining about having to censor the show to make it more kid friendly, and then make a poor attempt to censor the rest of the scene to make it kid friendly",
+        "weight": "1"
+    },
+    "10": {
+        "name": ", and make it a crossover episode involving celebrities and/or characters from other works of fiction",
+        "weight": "1"
+    },
+    "11": {
+        "name": ", and make one of the characters announce at the beginning that the following scene was written by a 3 year old, and then write the rest of the scene as if it was written by a 3 year old",
+        "weight": "1"
+    },
+    "12": {
+        "name": ", and make one of the characters try to shoehorn in a famous pop culture quote into their conversation but say it wrong, and all the other characters get mad that they messed it up",
+        "weight": "1"
+    },
+    "13": {
+        "name": ", and add as much fan service as possible",
+        "weight": "1"
+    }
+}
